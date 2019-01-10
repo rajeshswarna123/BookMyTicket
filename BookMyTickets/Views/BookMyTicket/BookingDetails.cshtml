@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "MovieDetails";
+}
+
+<script src="~/Scripts/BookMyTickets.js"></script>
+<h2>BookTicket</h2>
+<span class="movie_name" id="@ViewBag.Id"></span>
+
+<select class="theater_name" name='Theater Name' id='theater-name'>
+    <option value="null">---Select Theater---</option>
+</select>
+
+Date: <input type="text" id="datepicker" disabled>
+
+<select class="show_time" name='Show Time' id='show-time' disabled>
+    <option value="null">---Select Show Time---</option>
+</select>
+
+<div id="theater-layout"></div>
+<div id="reserve"></div>
+<div id="booking-dialog" title="Ticket Details">
+</div>
+
+
+

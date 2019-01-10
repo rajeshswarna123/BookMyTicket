@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[theater] (
+    [ID]   INT           IDENTITY (1, 1) NOT NULL,
+    [Name] VARCHAR (255) NOT NULL,
+    CONSTRAINT [PK__theater__3214EC274B3DFEF1] PRIMARY KEY CLUSTERED ([ID] ASC)
+);
+

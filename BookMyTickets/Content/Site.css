@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin:0;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+select {
+    width: 174px;
+    height: 26px;
+    margin-left: 30px;
+}
+    select:disabled {
+        background-color: #e8e8e8;
+    }
+.container {
+    margin: 0;
+    width: 100%;
+}
+img {
+    height: 300px;
+    width: 260px;
+}
+#movies{
+    padding:0;
+    margin:0;
+}
+#movies li {
+    display: inline-grid;
+    border: 1px solid #ebeff0;
+    padding: 20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    cursor: pointer;
+}
+.title{
+    font-weight:700;
+    padding: 10px 0;
+    display:inline-block;
+}
+.border_styles{
+    padding:20px;
+    margin:20px;
+}
+.movie_poster{
+    display:inline-block;
+}
+.movie{
+    display:inline-grid;
+}
+#language-duration{
+    display:flex;
+    justify-content:space-between;
+}
+.ui-dialog, #booking-dialog {
+    width: 450px !important;
+    height: 450px !important;
+}
+#theater-layout{
+    text-align: center;
+}
+#continue-booking {
+    display: block;
+    margin: 0 auto;
+}
+.ui-dialog-titlebar-close {
+    content: "&#10008;";
+}
